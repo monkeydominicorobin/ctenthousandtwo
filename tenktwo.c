@@ -32,6 +32,11 @@ char* fSix()
 	return "Function Six";
 }
 
+char* fSeven()
+{
+	return "Function Seven";
+}
+
 int main(int argc, char* argv[])
 {
 	char* sa = fOne();
@@ -40,11 +45,13 @@ int main(int argc, char* argv[])
 	char* sd = fFour();
 	char* se = fFive();
 	char* sf = fSix();
+	char* sg = fSeven();
 	printf("%s\n", sa);
         printf("%s\n", sb);
 	printf("%s\n", sc);
 	printf("%s\n", sd);
 	printf("%s\n", se);
 	printf("%s\n", sf);
+	printf("%s\n", sg);
 	return 0;
 }
