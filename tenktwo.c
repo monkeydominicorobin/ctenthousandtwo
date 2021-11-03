@@ -57,6 +57,11 @@ char* fEleven()
 	return "Function Eleven";
 }
 
+char* fTwelve()
+{
+	return "Function Twelve";
+}
+
 int main(int argc, char* argv[])
 {
 	char* sa = fOne();
@@ -70,6 +75,7 @@ int main(int argc, char* argv[])
 	char* si = fNine();
 	char* sj = fTen();
 	char* sk = fEleven();
+	char* sl = fTwelve();
 	printf("%s\n", sa);
         printf("%s\n", sb);
 	printf("%s\n", sc);
@@ -81,5 +87,6 @@ int main(int argc, char* argv[])
 	printf("%s\n", si);
 	printf("%s\n", sj);
 	printf("%s\n", sk);
+	printf("%s\n", sl);
 	return 0;
 }
